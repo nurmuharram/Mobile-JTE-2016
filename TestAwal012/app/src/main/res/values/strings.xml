@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TesAwal</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">tampilkan waktu</string>
+    <string name="textView">tanggal dan jam pada saat ini</string>
+
+</resources>
