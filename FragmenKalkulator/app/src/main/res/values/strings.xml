@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmenTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="inggris">Hello World</string>
+    <string name="indonesia">Apa Kabar Dunia</string>
+    <string name="aceh">Peu Haba Donya</string>
+</resources>
