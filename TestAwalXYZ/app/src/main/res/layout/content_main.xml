@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:weightSum="1">
+    …
+
+
+    <fragment
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:name="com.example.asus.testawalxyz.FragAtas"
+    android:id="@+id/fragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:layout="@layout/fragment_atas"
+    android:layout_weight="0.75" />
+
+    <fragment
+        android:name="com.example.asus.testawalxyz.MainActivityFragment"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:id="@+id/fragment_main"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:layout="@layout/fragment_main"
+
+        />
+</LinearLayout>
+
