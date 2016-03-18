@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asus.tugas09_tebakgambar.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgMobil"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/mobil"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickTebakGambar" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgSepedaMotor"
+        android:src="@drawable/sepedamotor"
+        android:layout_below="@+id/imgMobil"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickTebakGambar" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgBecakDayung"
+        android:src="@drawable/becakdayung"
+        android:layout_marginTop="76dp"
+        android:layout_below="@+id/imgSepedaMotor"
+        android:layout_alignLeft="@+id/imgSepeda"
+        android:layout_alignStart="@+id/imgSepeda"
+        android:onClick="onClickTebakGambar" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgSepeda"
+        android:src="@drawable/sepeda"
+        android:layout_below="@+id/imgBecakDayung"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickTebakGambar" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgBecakMotor"
+        android:layout_below="@+id/imgSepedaMotor"
+        android:src="@drawable/becakmotor"
+        android:layout_alignLeft="@+id/imgSepedaMotor"
+        android:layout_alignStart="@+id/imgSepedaMotor"
+        android:scaleType="fitCenter"
+        android:layout_alignRight="@+id/imgSepedaMotor"
+        android:layout_alignEnd="@+id/imgSepedaMotor"
+        android:layout_marginBottom="97dp"
+        android:layout_above="@+id/imgSepeda"
+        android:onClick="onClickTebakGambar" />
+</RelativeLayout>
